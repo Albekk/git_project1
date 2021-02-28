@@ -77,7 +77,7 @@ def getRandomizedBoard():
         column = []
         for y in range(4):
             column.append(icons[0])
-            del icons[0]  # remove the icons as we assign them
+            del icons[0]
         board.append(column)
     return board
 
